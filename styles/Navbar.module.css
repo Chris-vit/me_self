@@ -1,0 +1,47 @@
+.navcontainer {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+    z-index: 999;
+    height: 100vh;
+    width: 150px;
+    background-color: rgb(11 5 51);
+    ;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding-left: 0%;
+
+}
+
+.listItem {
+    margin: 20px;
+    display: flex;
+    cursor: pointer;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.stick {
+    position: sticky;
+}
+
+@media screen and (max-width: 480px) {
+    .navcontainer {
+        width: 20%;
+        height: 100%;
+    }
+}

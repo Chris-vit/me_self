@@ -1,0 +1,29 @@
+.container {
+    background-color: #ddf3f5;
+    padding-top: 60px;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 190px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: auto;
+    background-image: url("/Contact_Cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    text-align: center;
+    padding-top: 40px;
+    color: aliceblue;
+}
+
+.tech {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    margin-top: 80px;
+}

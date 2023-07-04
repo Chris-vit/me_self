@@ -1,0 +1,52 @@
+.main {
+    background-color: #ddf3f5;
+    padding-top: 120px;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    margin-left: 190px;
+    text-align: center;
+    background-image: url("/Cover.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    scroll-behavior: smooth;
+    animation: color-change 6s infinite alternate;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: both;
+    /* -webkit-animation: fade-in infinite alternate;
+    animation-name: example;
+    animation-duration: 8s; */
+}
+
+@keyframes color-change {
+    0% {
+        background-image: url("/Cover.png");
+        animation-timing-function: fade-in;
+    }
+
+    50% {
+        background-image: url("/Cover2.png");
+
+    }
+
+    100% {
+        background-image: url("/Cover3.png");
+
+    }
+}
+
+.title {
+    color: #ddf3f5;
+    font-size: 3rem;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+@media screen and (max-width: 480px) {
+    .navcontainer {
+        width: 80%;
+        height: 100%;
+    }
+}
