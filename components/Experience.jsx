@@ -34,8 +34,8 @@ const Experience = () => {
     return (
         <div className={styles.container} id="exp">
             <div className={styles.title} >
-                <h1>Skills</h1>
-                <h3>My areas of expertise</h3>
+                <h1>Work Experience</h1>
+                <h3>My previous places of work</h3>
             </div>
 
             <div>
